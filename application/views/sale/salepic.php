@@ -3467,11 +3467,11 @@ pregetlistcus()" class="form-control" placeholder="<?php echo $lang_sp_42; ?>"
                                             </tr>
                                             <tr>
 
-                                                <td colspan="3">ລວມເງິນເດີ້ issue</td>
+                                                <td colspan="3">ລວມເງິນ</td>
 
  
                                                 <td align="right" class="color:red">
-                                                    issue_{{sumsale_price | number:<?php echo $_SESSION['decimal_print']; ?>}}
+                                                    {{sumsale_price | number:<?php echo $_SESSION['decimal_print']; ?>}}
                                                 </td>
                                             </tr>
 
